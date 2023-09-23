@@ -1,0 +1,6 @@
+<p>template-driven-form works!</p>
+<form #loginForm="ngForm" (ngSubmit)="SubmitForm(loginForm.value)">
+    <input type="text" name="username" ngModel><br><br>
+    <input type="password" name="password" ngModel> 
+    <button> Login </button>
+</form>
